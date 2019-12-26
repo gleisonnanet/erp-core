@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use gleisonnanet\CidadesGratis\Cidades;
-use Laraerp\Eloquent\Models\Cidade;
+use erp-core\Eloquent\Models\Cidade;
 
 class CidadesSeeder extends Seeder
 {

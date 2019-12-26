@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laraerp\Contracts\Repositories\ClienteRepository;
-use Laraerp\Contracts\Repositories\ContatoRepository;
-use Laraerp\Contracts\Repositories\EnderecoRepository;
-use Laraerp\Http\Requests\PessoaSalvarRequest;
+use erp-core\Contracts\Repositories\ClienteRepository;
+use erp-core\Contracts\Repositories\ContatoRepository;
+use erp-core\Contracts\Repositories\EnderecoRepository;
+use erp-core\Http\Requests\PessoaSalvarRequest;
 
 class ClienteController extends Controller
 {

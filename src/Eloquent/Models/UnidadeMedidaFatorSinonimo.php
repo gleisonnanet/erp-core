@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraerp\Eloquent\Models;
+namespace erp-core\Eloquent\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Laraerp\Ordination\OrdinationTrait;
+use erp-core\Ordination\OrdinationTrait;
 
 class UnidadeMedidaFatorSinonimo extends Model
 {

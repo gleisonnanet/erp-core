@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Eloquent\Repositories;
+namespace erp-core\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
-use Laraerp\Contracts\Repositories\EmpresaEntity;
-use Laraerp\Contracts\Repositories\EmpresaRepository;
-use Laraerp\Eloquent\BasePessoaRepository;
-use Laraerp\Eloquent\Models\Empresa;
+use erp-core\Contracts\Repositories\EmpresaEntity;
+use erp-core\Contracts\Repositories\EmpresaRepository;
+use erp-core\Eloquent\BasePessoaRepository;
+use erp-core\Eloquent\Models\Empresa;
 
 class EmpresaEloquentRepository extends BasePessoaRepository implements EmpresaRepository
 {

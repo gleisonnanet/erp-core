@@ -10,7 +10,7 @@
          stopOnFailure="false"
          syntaxCheck="false">
     <testsuites>
-        <testsuite name="Laraerp Test Suite">
+        <testsuite name="erp-core Test Suite">
             <directory suffix=".php">./tests/</directory>
         </testsuite>
     </testsuites>

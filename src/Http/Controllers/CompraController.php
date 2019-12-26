@@ -1,17 +1,17 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Carbon\Carbon;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
-use Laraerp\Contracts\Repositories\FornecedorRepository;
-use Laraerp\Contracts\Repositories\NotaFiscalItemRepository;
-use Laraerp\Contracts\Repositories\NotaFiscalRepository;
-use Laraerp\Contracts\Repositories\ProdutoRepository;
-use Laraerp\Eloquent\Models\Produto;
-use Laraerp\Http\Requests\CompraRelacionarProdutoItemRequest;
-use Laraerp\Http\Requests\CompraSalvarRequest;
+use erp-core\Contracts\Repositories\FornecedorRepository;
+use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
+use erp-core\Contracts\Repositories\NotaFiscalRepository;
+use erp-core\Contracts\Repositories\ProdutoRepository;
+use erp-core\Eloquent\Models\Produto;
+use erp-core\Http\Requests\CompraRelacionarProdutoItemRequest;
+use erp-core\Http\Requests\CompraSalvarRequest;
 
 class CompraController extends Controller
 {

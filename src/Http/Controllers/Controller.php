@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

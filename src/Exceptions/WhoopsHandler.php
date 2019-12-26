@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraerp\Exceptions;
+namespace erp-core\Exceptions;
 
 use Exception;
 use Illuminate\Http\Request;

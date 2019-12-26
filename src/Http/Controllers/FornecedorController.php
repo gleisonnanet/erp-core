@@ -1,13 +1,13 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laraerp\Contracts\Repositories\ContatoRepository;
-use Laraerp\Contracts\Repositories\EnderecoRepository;
-use Laraerp\Contracts\Repositories\FornecedorRepository;
-use Laraerp\Http\Requests\FornecedorSalvarRequest;
-use Laraerp\Http\Requests\PessoaSalvarRequest;
+use erp-core\Contracts\Repositories\ContatoRepository;
+use erp-core\Contracts\Repositories\EnderecoRepository;
+use erp-core\Contracts\Repositories\FornecedorRepository;
+use erp-core\Http\Requests\FornecedorSalvarRequest;
+use erp-core\Http\Requests\PessoaSalvarRequest;
 
 class FornecedorController extends Controller
 {

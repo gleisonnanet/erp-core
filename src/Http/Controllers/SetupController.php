@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
-use Laraerp\Contracts\Repositories\ContatoRepository;
-use Laraerp\Contracts\Repositories\EmpresaRepository;
-use Laraerp\Contracts\Repositories\EnderecoRepository;
-use Laraerp\Http\Requests;
-use Laraerp\Http\Requests\SetupSalvarRequest;
+use erp-core\Contracts\Repositories\ContatoRepository;
+use erp-core\Contracts\Repositories\EmpresaRepository;
+use erp-core\Contracts\Repositories\EnderecoRepository;
+use erp-core\Http\Requests;
+use erp-core\Http\Requests\SetupSalvarRequest;
 
 
 class SetupController extends Controller

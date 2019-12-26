@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Laraerp\Eloquent\Models\Cfop;
+use erp-core\Eloquent\Models\Cfop;
 
 class CfopsSeeder extends Seeder
 {

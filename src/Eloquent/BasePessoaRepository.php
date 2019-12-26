@@ -1,8 +1,8 @@
 <?php
 
-namespace Laraerp\Eloquent;
+namespace erp-core\Eloquent;
 
-use Laraerp\Contracts\Repositories\PessoaRepository;
+use erp-core\Contracts\Repositories\PessoaRepository;
 
 abstract class BasePessoaRepository extends  BaseRepository
 {

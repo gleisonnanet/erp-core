@@ -1,25 +1,25 @@
 <?php
 
 use gleisonnanet\Utils\Utils;
-use Laraerp\Contracts\Repositories\CidadeRepository;
-use Laraerp\Contracts\Repositories\ClienteRepository;
-use Laraerp\Contracts\Repositories\ContatoRepository;
-use Laraerp\Contracts\Repositories\EmpresaRepository;
-use Laraerp\Contracts\Repositories\EnderecoRepository;
-use Laraerp\Contracts\Repositories\FaturaRepository;
-use Laraerp\Contracts\Repositories\FornecedorRepository;
-use Laraerp\Contracts\Repositories\NotaFiscalItemRepository;
-use Laraerp\Contracts\Repositories\NotaFiscalRepository;
-use Laraerp\Contracts\Repositories\PessoaRepository;
-use Laraerp\Contracts\Repositories\ProdutoRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaRepository;
-use Laraerp\Ordination\Facade;
-use Laraerp\Providers\LaraerpServiceProvider;
+use erp-core\Contracts\Repositories\CidadeRepository;
+use erp-core\Contracts\Repositories\ClienteRepository;
+use erp-core\Contracts\Repositories\ContatoRepository;
+use erp-core\Contracts\Repositories\EmpresaRepository;
+use erp-core\Contracts\Repositories\EnderecoRepository;
+use erp-core\Contracts\Repositories\FaturaRepository;
+use erp-core\Contracts\Repositories\FornecedorRepository;
+use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
+use erp-core\Contracts\Repositories\NotaFiscalRepository;
+use erp-core\Contracts\Repositories\PessoaRepository;
+use erp-core\Contracts\Repositories\ProdutoRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaRepository;
+use erp-core\Ordination\Facade;
+use erp-core\Providers\erp-coreServiceProvider;
 use Orchestra\Testbench\TestCase;
 
-class LaraerpServiceProviderTest extends TestCase
+class erp-coreServiceProviderTest extends TestCase
 {
 
     /**
@@ -27,7 +27,7 @@ class LaraerpServiceProviderTest extends TestCase
      */
     protected function getPackageProviders($app)
     {
-        return [LaraerpServiceProvider::class];
+        return [erp-coreServiceProvider::class];
     }
 
     /**
@@ -35,20 +35,20 @@ class LaraerpServiceProviderTest extends TestCase
      */
     public function testConstrucaoRepositorios()
     {
-        $this->assertInstanceOf(CidadeRepository::class, $this->app[config('laraerp.repositories.CidadeRepository')]);
-        $this->assertInstanceOf(ClienteRepository::class, $this->app[config('laraerp.repositories.ClienteRepository')]);
-        $this->assertInstanceOf(ContatoRepository::class, $this->app[config('laraerp.repositories.ContatoRepository')]);
-        $this->assertInstanceOf(EmpresaRepository::class, $this->app[config('laraerp.repositories.EmpresaRepository')]);
-        $this->assertInstanceOf(EnderecoRepository::class, $this->app[config('laraerp.repositories.EnderecoRepository')]);
-        $this->assertInstanceOf(FornecedorRepository::class, $this->app[config('laraerp.repositories.FornecedorRepository')]);
-        $this->assertInstanceOf(PessoaRepository::class, $this->app[config('laraerp.repositories.PessoaRepository')]);
-        $this->assertInstanceOf(ProdutoRepository::class, $this->app[config('laraerp.repositories.ProdutoRepository')]);
-        $this->assertInstanceOf(UnidadeMedidaRepository::class, $this->app[config('laraerp.repositories.UnidadeMedidaRepository')]);
-        $this->assertInstanceOf(UnidadeMedidaFatorRepository::class, $this->app[config('laraerp.repositories.UnidadeMedidaFatorRepository')]);
-        $this->assertInstanceOf(UnidadeMedidaFatorSinonimoRepository::class, $this->app[config('laraerp.repositories.UnidadeMedidaFatorSinonimoRepository')]);
-        $this->assertInstanceOf(NotaFiscalRepository::class, $this->app[config('laraerp.repositories.NotaFiscalRepository')]);
-        $this->assertInstanceOf(NotaFiscalItemRepository::class, $this->app[config('laraerp.repositories.NotaFiscalItemRepository')]);
-        $this->assertInstanceOf(FaturaRepository::class, $this->app[config('laraerp.repositories.FaturaRepository')]);
+        $this->assertInstanceOf(CidadeRepository::class, $this->app[config('erp-core.repositories.CidadeRepository')]);
+        $this->assertInstanceOf(ClienteRepository::class, $this->app[config('erp-core.repositories.ClienteRepository')]);
+        $this->assertInstanceOf(ContatoRepository::class, $this->app[config('erp-core.repositories.ContatoRepository')]);
+        $this->assertInstanceOf(EmpresaRepository::class, $this->app[config('erp-core.repositories.EmpresaRepository')]);
+        $this->assertInstanceOf(EnderecoRepository::class, $this->app[config('erp-core.repositories.EnderecoRepository')]);
+        $this->assertInstanceOf(FornecedorRepository::class, $this->app[config('erp-core.repositories.FornecedorRepository')]);
+        $this->assertInstanceOf(PessoaRepository::class, $this->app[config('erp-core.repositories.PessoaRepository')]);
+        $this->assertInstanceOf(ProdutoRepository::class, $this->app[config('erp-core.repositories.ProdutoRepository')]);
+        $this->assertInstanceOf(UnidadeMedidaRepository::class, $this->app[config('erp-core.repositories.UnidadeMedidaRepository')]);
+        $this->assertInstanceOf(UnidadeMedidaFatorRepository::class, $this->app[config('erp-core.repositories.UnidadeMedidaFatorRepository')]);
+        $this->assertInstanceOf(UnidadeMedidaFatorSinonimoRepository::class, $this->app[config('erp-core.repositories.UnidadeMedidaFatorSinonimoRepository')]);
+        $this->assertInstanceOf(NotaFiscalRepository::class, $this->app[config('erp-core.repositories.NotaFiscalRepository')]);
+        $this->assertInstanceOf(NotaFiscalItemRepository::class, $this->app[config('erp-core.repositories.NotaFiscalItemRepository')]);
+        $this->assertInstanceOf(FaturaRepository::class, $this->app[config('erp-core.repositories.FaturaRepository')]);
     }
 
     /**

@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Eloquent\Repositories;
+namespace erp-core\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
-use Laraerp\Contracts\Repositories\CidadeRepository;
-use Laraerp\Contracts\Repositories\EnderecoRepository;
-use Laraerp\Eloquent\BaseRepository;
-use Laraerp\Eloquent\Models\Endereco;
+use erp-core\Contracts\Repositories\CidadeRepository;
+use erp-core\Contracts\Repositories\EnderecoRepository;
+use erp-core\Eloquent\BaseRepository;
+use erp-core\Eloquent\Models\Endereco;
 
 class EnderecoEloquentRepository extends BaseRepository implements EnderecoRepository
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laraerp\Contracts\Repositories\NotaFiscalItemRepository;
-use Laraerp\Contracts\Repositories\NotaFiscalRepository;
+use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
+use erp-core\Contracts\Repositories\NotaFiscalRepository;
 
 class VendaController extends Controller
 {

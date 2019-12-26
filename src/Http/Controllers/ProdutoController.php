@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Laraerp\Contracts\Repositories\ProdutoRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaRepository;
-use Laraerp\Http\Requests\ProdutoSalvarRequest;
+use erp-core\Contracts\Repositories\ProdutoRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaRepository;
+use erp-core\Http\Requests\ProdutoSalvarRequest;
 
 class ProdutoController extends Controller
 {

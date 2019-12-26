@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraerp\Contracts\Repositories;
+namespace erp-core\Contracts\Repositories;
 
 use Carbon\Carbon;
-use Laraerp\Contracts\RepositoryInterface;
+use erp-core\Contracts\RepositoryInterface;
 
 interface FaturaRepository extends RepositoryInterface
 {

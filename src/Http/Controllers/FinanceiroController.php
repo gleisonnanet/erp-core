@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use Laraerp\Contracts\Repositories\FaturaRepository;
+use erp-core\Contracts\Repositories\FaturaRepository;
 
 class FinanceiroController extends Controller
 {

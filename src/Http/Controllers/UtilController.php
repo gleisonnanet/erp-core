@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraerp\Http\Controllers;
+namespace erp-core\Http\Controllers;
 
 
 use Exception;
@@ -10,9 +10,9 @@ use gleisonnanet\CepGratis\CepGratis;
 use gleisonnanet\CnpjGratis\CnpjGratis;
 use gleisonnanet\CpfGratis\CpfGratis;
 use gleisonnanet\Utils\Utils;
-use Laraerp\Contracts\Repositories\CidadeRepository;
-use Laraerp\Contracts\Repositories\FornecedorRepository;
-use Laraerp\Contracts\Repositories\ProdutoRepository;
+use erp-core\Contracts\Repositories\CidadeRepository;
+use erp-core\Contracts\Repositories\FornecedorRepository;
+use erp-core\Contracts\Repositories\ProdutoRepository;
 
 class UtilController extends Controller
 {

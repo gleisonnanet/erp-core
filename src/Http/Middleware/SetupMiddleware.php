@@ -1,9 +1,9 @@
 <?php
 
-namespace Laraerp\Http\Middleware;
+namespace erp-core\Http\Middleware;
 
 use Closure;
-use Laraerp\Contracts\Repositories\EmpresaRepository;
+use erp-core\Contracts\Repositories\EmpresaRepository;
 
 class SetupMiddleware
 {

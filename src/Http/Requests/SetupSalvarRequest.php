@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraerp\Http\Requests;
+namespace erp-core\Http\Requests;
 
 class SetupSalvarRequest extends Request
 {

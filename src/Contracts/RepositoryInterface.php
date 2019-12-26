@@ -1,6 +1,6 @@
 <?php
 
-namespace Laraerp\Contracts;
+namespace erp-core\Contracts;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

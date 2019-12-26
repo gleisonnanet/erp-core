@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Eloquent\Repositories;
+namespace erp-core\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 use gleisonnanet\Utils\Utils;
-use Laraerp\Contracts\Repositories\PessoaRepository;
-use Laraerp\Eloquent\BaseRepository;
-use Laraerp\Eloquent\Models\Pessoa;
+use erp-core\Contracts\Repositories\PessoaRepository;
+use erp-core\Eloquent\BaseRepository;
+use erp-core\Eloquent\Models\Pessoa;
 
 class PessoaEloquentRepository extends BaseRepository implements PessoaRepository
 {

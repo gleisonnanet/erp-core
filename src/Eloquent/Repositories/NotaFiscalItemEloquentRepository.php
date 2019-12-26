@@ -1,15 +1,15 @@
 <?php
 
-namespace Laraerp\Eloquent\Repositories;
+namespace erp-core\Eloquent\Repositories;
 
 
 use Exception;
-use Laraerp\Contracts\Repositories\NotaFiscalItemEntity;
-use Laraerp\Contracts\Repositories\NotaFiscalItemRepository;
-use Laraerp\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use Laraerp\Eloquent\BaseRepository;
-use Laraerp\Eloquent\Model;
-use Laraerp\Eloquent\Models\NotaFiscalItem;
+use erp-core\Contracts\Repositories\NotaFiscalItemEntity;
+use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
+use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erp-core\Eloquent\BaseRepository;
+use erp-core\Eloquent\Model;
+use erp-core\Eloquent\Models\NotaFiscalItem;
 
 class NotaFiscalItemEloquentRepository extends BaseRepository implements NotaFiscalItemRepository
 {

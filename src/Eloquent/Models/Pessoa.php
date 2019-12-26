@@ -1,11 +1,11 @@
 <?php
 
-namespace Laraerp\Eloquent\Models;
+namespace erp-core\Eloquent\Models;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Model;
 use gleisonnanet\Utils\Utils;
-use Laraerp\Ordination\OrdinationTrait;
+use erp-core\Ordination\OrdinationTrait;
 
 class Pessoa extends Model
 {

@@ -1,16 +1,16 @@
-# Laraerp
+# erp-core
 
-[![Build Status](https://travis-ci.org/laraerp/core.svg?branch=develop)](https://travis-ci.org/laraerp/core)
-[![Latest Stable Version](https://poser.pugx.org/laraerp/core/v/stable)](https://packagist.org/packages/laraerp/core) [![Total Downloads](https://poser.pugx.org/laraerp/core/downloads)](https://packagist.org/packages/laraerp/core) [![Latest Unstable Version](https://poser.pugx.org/laraerp/core/v/unstable)](https://packagist.org/packages/laraerp/core) [![License](https://poser.pugx.org/laraerp/core/license)](https://packagist.org/packages/laraerp/core)
+[![Build Status](https://travis-ci.org/erp-core/core.svg?branch=develop)](https://travis-ci.org/erp-core/core)
+[![Latest Stable Version](https://poser.pugx.org/erp-core/core/v/stable)](https://packagist.org/packages/erp-core/core) [![Total Downloads](https://poser.pugx.org/erp-core/core/downloads)](https://packagist.org/packages/erp-core/core) [![Latest Unstable Version](https://poser.pugx.org/erp-core/core/v/unstable)](https://packagist.org/packages/erp-core/core) [![License](https://poser.pugx.org/erp-core/core/license)](https://packagist.org/packages/erp-core/core)
 
 ERP brasileiro de código fonte aberto escrito sob o Laravel Framework.
 
 # Instalação
 
-Adicione o núcleo do Laraerp utilizando o Composer:
+Adicione o núcleo do erp-core utilizando o Composer:
 
 ```shell
-$ composer require laraerp/core
+$ composer require erp-core/core
 ```
 
 Registre o ServiceProvider no arquivo `app/config.php`:
@@ -19,7 +19,7 @@ Registre o ServiceProvider no arquivo `app/config.php`:
 // file START ommited
     'providers' => [
         // other providers ommited
-        \Laraerp\Providers\LaraerpServiceProvider::class,
+        \erp-core\Providers\erp-coreServiceProvider::class,
     ],
 // file END ommited
 ```
@@ -35,14 +35,14 @@ Execute os comandos para criar e popular as tabelas:
 
 ```shell
 $ php artisan migrate
-$ php artisan db:seed --class="LaraerpSeeder"
+$ php artisan db:seed --class="erp-coreSeeder"
 ```
 
 # Template
 
-A instalação do core não contempla o template. Você pode utilizar o template default do Laraerp:
+A instalação do core não contempla o template. Você pode utilizar o template default do erp-core:
 
-[http://github.com/laraerp/template](http://github.com/laraerp/template)
+[http://github.com/erp-core/template](http://github.com/erp-core/template)
 
 # License
 

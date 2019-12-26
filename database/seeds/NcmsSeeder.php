@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use Laraerp\Eloquent\Models\Ncm;
+use erp-core\Eloquent\Models\Ncm;
 
 class NcmsSeeder extends Seeder
 {

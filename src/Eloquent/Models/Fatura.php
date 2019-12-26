@@ -1,10 +1,10 @@
 <?php
 
-namespace Laraerp\Eloquent\Models;
+namespace erp-core\Eloquent\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use Laraerp\Ordination\OrdinationTrait;
+use erp-core\Ordination\OrdinationTrait;
 
 class Fatura extends Model
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace Laraerp\Eloquent\Repositories;
+namespace erp-core\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
-use Laraerp\Contracts\Repositories\FornecedorRepository;
-use Laraerp\Eloquent\BasePessoaRepository;
-use Laraerp\Eloquent\Models\Fornecedor;
+use erp-core\Contracts\Repositories\FornecedorRepository;
+use erp-core\Eloquent\BasePessoaRepository;
+use erp-core\Eloquent\Models\Fornecedor;
 
 class FornecedorEloquentRepository extends BasePessoaRepository implements FornecedorRepository
 {
