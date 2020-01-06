@@ -1,4 +1,4 @@
-# erp-core
+# erpCore
 
 [![Build Status](https://travis-ci.org/erp-core/core.svg?branch=develop)](https://travis-ci.org/erp-core/core)
 [![Latest Stable Version](https://poser.pugx.org/erp-core/core/v/stable)](https://packagist.org/packages/erp-core/core) [![Total Downloads](https://poser.pugx.org/erp-core/core/downloads)](https://packagist.org/packages/erp-core/core) [![Latest Unstable Version](https://poser.pugx.org/erp-core/core/v/unstable)](https://packagist.org/packages/erp-core/core) [![License](https://poser.pugx.org/erp-core/core/license)](https://packagist.org/packages/erp-core/core)
