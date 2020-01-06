@@ -1,13 +1,13 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 
-use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use erp-core\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Model;
-use erp-core\Eloquent\Models\UnidadeMedidaFator;
+use erpCore\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erpCore\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Model;
+use erpCore\Eloquent\Models\UnidadeMedidaFator;
 
 class UnidadeMedidaFatorEloquentRepository extends BaseRepository implements UnidadeMedidaFatorRepository
 {

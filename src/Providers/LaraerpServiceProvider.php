@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Providers;
+namespace erpCore\Providers;
 
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Foundation\AliasLoader;
@@ -9,27 +9,27 @@ use Illuminate\Support\Facades\Request;
 use Illuminate\Support\ServiceProvider;
 use gleisonnanet\Utils\Mask;
 use gleisonnanet\Utils\Utils;
-use erp-core\Contracts\Repositories\CidadeRepository;
-use erp-core\Contracts\Repositories\ClienteRepository;
-use erp-core\Contracts\Repositories\ContatoRepository;
-use erp-core\Contracts\Repositories\EmpresaRepository;
-use erp-core\Contracts\Repositories\EnderecoRepository;
-use erp-core\Contracts\Repositories\FaturaRepository;
-use erp-core\Contracts\Repositories\FornecedorRepository;
-use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
-use erp-core\Contracts\Repositories\NotaFiscalRepository;
-use erp-core\Contracts\Repositories\PessoaRepository;
-use erp-core\Contracts\Repositories\ProdutoRepository;
-use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use erp-core\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
-use erp-core\Contracts\Repositories\UnidadeMedidaRepository;
-use erp-core\Exceptions\Handler;
-use erp-core\Exceptions\WhoopsHandler;
-use erp-core\Http\Middleware\SetupMiddleware;
-use erp-core\Ordination\Facade;
-use erp-core\Ordination\OrdinationServiceProvider;
+use erpCore\Contracts\Repositories\CidadeRepository;
+use erpCore\Contracts\Repositories\ClienteRepository;
+use erpCore\Contracts\Repositories\ContatoRepository;
+use erpCore\Contracts\Repositories\EmpresaRepository;
+use erpCore\Contracts\Repositories\EnderecoRepository;
+use erpCore\Contracts\Repositories\FaturaRepository;
+use erpCore\Contracts\Repositories\FornecedorRepository;
+use erpCore\Contracts\Repositories\NotaFiscalItemRepository;
+use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpCore\Contracts\Repositories\PessoaRepository;
+use erpCore\Contracts\Repositories\ProdutoRepository;
+use erpCore\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erpCore\Contracts\Repositories\UnidadeMedidaFatorSinonimoRepository;
+use erpCore\Contracts\Repositories\UnidadeMedidaRepository;
+use erpCore\Exceptions\Handler;
+use erpCore\Exceptions\WhoopsHandler;
+use erpCore\Http\Middleware\SetupMiddleware;
+use erpCore\Ordination\Facade;
+use erpCore\Ordination\OrdinationServiceProvider;
 
-class erp-coreServiceProvider extends ServiceProvider
+class erpCoreServiceProvider extends ServiceProvider
 {
 
     /**
@@ -53,35 +53,35 @@ class erp-coreServiceProvider extends ServiceProvider
         /*
          * Publish config
          */
-        $this->publishes([__DIR__.'/../../config/erp-core.php' => config_path('erp-core.php')], 'erp-core');
+        $this->publishes([__DIR__.'/../../config/erpCore.php' => config_path('erpCore.php')], 'erpCore');
 
         /*
          * Merge config
          */
-        $this->mergeConfigFrom(__DIR__.'/../../config/erp-core.php', 'erp-core');
+        $this->mergeConfigFrom(__DIR__.'/../../config/erpCore.php', 'erpCore');
 
         /*
-         * erp-core Middlewares...
+         * erpCore Middlewares...
          */
         $this->app->router->middleware('setup', SetupMiddleware::class);
 
         /*
          * Bind Repositories
          */
-        $this->app->bind(CidadeRepository::class, config('erp-core.repositories.CidadeRepository'));
-        $this->app->bind(ClienteRepository::class, config('erp-core.repositories.ClienteRepository'));
-        $this->app->bind(ContatoRepository::class, config('erp-core.repositories.ContatoRepository'));
-        $this->app->bind(EmpresaRepository::class, config('erp-core.repositories.EmpresaRepository'));
-        $this->app->bind(EnderecoRepository::class, config('erp-core.repositories.EnderecoRepository'));
-        $this->app->bind(FornecedorRepository::class, config('erp-core.repositories.FornecedorRepository'));
-        $this->app->bind(PessoaRepository::class, config('erp-core.repositories.PessoaRepository'));
-        $this->app->bind(ProdutoRepository::class, config('erp-core.repositories.ProdutoRepository'));
-        $this->app->bind(UnidadeMedidaRepository::class, config('erp-core.repositories.UnidadeMedidaRepository'));
-        $this->app->bind(UnidadeMedidaFatorRepository::class, config('erp-core.repositories.UnidadeMedidaFatorRepository'));
-        $this->app->bind(UnidadeMedidaFatorSinonimoRepository::class, config('erp-core.repositories.UnidadeMedidaFatorSinonimoRepository'));
-        $this->app->bind(NotaFiscalRepository::class, config('erp-core.repositories.NotaFiscalRepository'));
-        $this->app->bind(NotaFiscalItemRepository::class, config('erp-core.repositories.NotaFiscalItemRepository'));
-        $this->app->bind(FaturaRepository::class, config('erp-core.repositories.FaturaRepository'));
+        $this->app->bind(CidadeRepository::class, config('erpCore.repositories.CidadeRepository'));
+        $this->app->bind(ClienteRepository::class, config('erpCore.repositories.ClienteRepository'));
+        $this->app->bind(ContatoRepository::class, config('erpCore.repositories.ContatoRepository'));
+        $this->app->bind(EmpresaRepository::class, config('erpCore.repositories.EmpresaRepository'));
+        $this->app->bind(EnderecoRepository::class, config('erpCore.repositories.EnderecoRepository'));
+        $this->app->bind(FornecedorRepository::class, config('erpCore.repositories.FornecedorRepository'));
+        $this->app->bind(PessoaRepository::class, config('erpCore.repositories.PessoaRepository'));
+        $this->app->bind(ProdutoRepository::class, config('erpCore.repositories.ProdutoRepository'));
+        $this->app->bind(UnidadeMedidaRepository::class, config('erpCore.repositories.UnidadeMedidaRepository'));
+        $this->app->bind(UnidadeMedidaFatorRepository::class, config('erpCore.repositories.UnidadeMedidaFatorRepository'));
+        $this->app->bind(UnidadeMedidaFatorSinonimoRepository::class, config('erpCore.repositories.UnidadeMedidaFatorSinonimoRepository'));
+        $this->app->bind(NotaFiscalRepository::class, config('erpCore.repositories.NotaFiscalRepository'));
+        $this->app->bind(NotaFiscalItemRepository::class, config('erpCore.repositories.NotaFiscalItemRepository'));
+        $this->app->bind(FaturaRepository::class, config('erpCore.repositories.FaturaRepository'));
 
         /*
          * Service Providers...
@@ -110,7 +110,7 @@ class erp-coreServiceProvider extends ServiceProvider
         $loader->alias('Order', Facade::class);
 
         /*
-         * erp-core Routes...
+         * erpCore Routes...
          */
         include __DIR__ . '/../Http/routes.php';
     }

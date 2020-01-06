@@ -1,5 +1,5 @@
 {
-    "name": "erp-core/core",
+    "name": "erpCore/core",
     "description": "ERP brasileiro de código fonte aberto escrito sob o Laravel Framework",
     "keywords": ["erp", "openerp", "erp php", "laravel"],
     "license": "MIT",
@@ -27,7 +27,7 @@
             "database"
         ],
         "psr-4": {
-            "erp-core\\": "src"
+            "erpCore\\": "src"
         }
     },
     "config": {

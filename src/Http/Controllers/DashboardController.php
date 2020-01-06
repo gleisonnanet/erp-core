@@ -1,10 +1,10 @@
 <?php
 
-namespace erp-core\Http\Controllers;
+namespace erpCore\Http\Controllers;
 
 use Carbon\Carbon;
-use erp-core\Contracts\Repositories\FaturaRepository;
-use erp-core\Contracts\Repositories\NotaFiscalRepository;
+use erpCore\Contracts\Repositories\FaturaRepository;
+use erpCore\Contracts\Repositories\NotaFiscalRepository;
 
 class DashboardController extends Controller
 {

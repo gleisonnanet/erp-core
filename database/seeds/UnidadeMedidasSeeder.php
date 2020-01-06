@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use erp-core\Eloquent\Models\UnidadeMedida;
-use erp-core\Eloquent\Models\UnidadeMedidaFator;
-use erp-core\Eloquent\Models\UnidadeMedidaFatorSinonimo;
+use erpCore\Eloquent\Models\UnidadeMedida;
+use erpCore\Eloquent\Models\UnidadeMedidaFator;
+use erpCore\Eloquent\Models\UnidadeMedidaFatorSinonimo;
 
 class UnidadeMedidasSeeder extends Seeder
 {

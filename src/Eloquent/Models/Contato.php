@@ -1,10 +1,10 @@
 <?php
 
-namespace erp-core\Eloquent\Models;
+namespace erpCore\Eloquent\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use gleisonnanet\Utils\Utils;
-use erp-core\Ordination\OrdinationTrait;
+use erpCore\Ordination\OrdinationTrait;
 
 class Contato extends Model
 {

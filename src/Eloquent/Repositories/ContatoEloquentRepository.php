@@ -1,11 +1,11 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
-use erp-core\Contracts\Repositories\ContatoRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Models\Contato;
+use erpCore\Contracts\Repositories\ContatoRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Models\Contato;
 
 class ContatoEloquentRepository extends BaseRepository implements ContatoRepository
 {

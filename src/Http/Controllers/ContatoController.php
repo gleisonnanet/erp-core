@@ -1,9 +1,9 @@
 <?php
 
-namespace erp-core\Http\Controllers;
+namespace erpCore\Http\Controllers;
 
-use erp-core\Contracts\Repositories\ContatoRepository;
-use erp-core\Http\Requests\ContatoSalvarRequest;
+use erpCore\Contracts\Repositories\ContatoRepository;
+use erpCore\Http\Requests\ContatoSalvarRequest;
 
 class ContatoController extends Controller
 {

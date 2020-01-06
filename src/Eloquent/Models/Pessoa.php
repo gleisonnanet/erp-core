@@ -1,11 +1,11 @@
 <?php
 
-namespace erp-core\Eloquent\Models;
+namespace erpCore\Eloquent\Models;
 
 use DateTime;
 use Illuminate\Database\Eloquent\Model;
 use gleisonnanet\Utils\Utils;
-use erp-core\Ordination\OrdinationTrait;
+use erpCore\Ordination\OrdinationTrait;
 
 class Pessoa extends Model
 {

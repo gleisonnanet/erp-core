@@ -1,10 +1,10 @@
 <?php
 
-namespace erp-core\Http\Controllers;
+namespace erpCore\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use erp-core\Contracts\Repositories\FaturaRepository;
+use erpCore\Contracts\Repositories\FaturaRepository;
 
 class FinanceiroController extends Controller
 {

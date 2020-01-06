@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Contracts;
+namespace erpCore\Contracts;
 
 use Illuminate\Contracts\Pagination\LengthAwarePaginator;
 use Illuminate\Support\Collection;

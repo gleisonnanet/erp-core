@@ -1,9 +1,9 @@
 <?php
 
-namespace erp-core\Eloquent\Models;
+namespace erpCore\Eloquent\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use erp-core\Ordination\OrdinationTrait;
+use erpCore\Ordination\OrdinationTrait;
 
 class UnidadeMedidaFator extends Model
 {

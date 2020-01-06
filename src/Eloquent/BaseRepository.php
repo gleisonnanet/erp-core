@@ -1,8 +1,8 @@
 <?php
 
-namespace erp-core\Eloquent;
+namespace erpCore\Eloquent;
 
-use erp-core\Contracts\RepositoryInterface;
+use erpCore\Contracts\RepositoryInterface;
 
 abstract class BaseRepository
 {

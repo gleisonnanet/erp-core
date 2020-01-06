@@ -1,9 +1,9 @@
 <?php
 
-namespace erp-core\Contracts\Repositories;
+namespace erpCore\Contracts\Repositories;
 
 use Carbon\Carbon;
-use erp-core\Contracts\RepositoryInterface;
+use erpCore\Contracts\RepositoryInterface;
 
 interface FaturaRepository extends RepositoryInterface
 {

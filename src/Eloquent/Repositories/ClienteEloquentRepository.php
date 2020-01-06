@@ -1,11 +1,11 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Model;
-use erp-core\Contracts\Repositories\ClienteRepository;
-use erp-core\Eloquent\BasePessoaRepository;
-use erp-core\Eloquent\Models\Cliente;
+use erpCore\Contracts\Repositories\ClienteRepository;
+use erpCore\Eloquent\BasePessoaRepository;
+use erpCore\Eloquent\Models\Cliente;
 
 class ClienteEloquentRepository extends BasePessoaRepository implements ClienteRepository
 {

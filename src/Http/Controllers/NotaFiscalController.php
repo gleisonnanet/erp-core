@@ -1,14 +1,14 @@
 <?php
 
-namespace erp-core\Http\Controllers;
+namespace erpCore\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
 use Illuminate\Support\Facades\DB;
-use erp-core\Contracts\Repositories\NotaFiscalRepository;
-use erp-core\Http\Services\ImportarNFeService;
+use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpCore\Http\Services\ImportarNFeService;
 
 class NotaFiscalController extends Controller
 {

@@ -1,14 +1,14 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 
 use Carbon\Carbon;
-use erp-core\Contracts\Repositories\Collection;
-use erp-core\Contracts\Repositories\NotaFiscalRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Model;
-use erp-core\Eloquent\Models\NotaFiscal;
+use erpCore\Contracts\Repositories\Collection;
+use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Model;
+use erpCore\Eloquent\Models\NotaFiscal;
 
 class NotaFiscalEloquentRepository extends BaseRepository implements NotaFiscalRepository
 {

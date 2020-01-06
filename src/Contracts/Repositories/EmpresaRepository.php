@@ -1,8 +1,8 @@
 <?php
 
-namespace erp-core\Contracts\Repositories;
+namespace erpCore\Contracts\Repositories;
 
-use erp-core\Contracts\RepositoryInterface;
+use erpCore\Contracts\RepositoryInterface;
 
 interface EmpresaRepository extends RepositoryInterface
 {

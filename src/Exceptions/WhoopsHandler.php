@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Exceptions;
+namespace erpCore\Exceptions;
 
 use Exception;
 use Illuminate\Http\Request;

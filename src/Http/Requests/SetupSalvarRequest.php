@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Http\Requests;
+namespace erpCore\Http\Requests;
 
 class SetupSalvarRequest extends Request
 {

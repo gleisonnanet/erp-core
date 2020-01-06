@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Http\Requests;
+namespace erpCore\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Support\Facades\Auth;

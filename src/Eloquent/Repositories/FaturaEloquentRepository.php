@@ -1,13 +1,13 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use erp-core\Contracts\Repositories\FaturaRepository;
-use erp-core\Contracts\Repositories\NotaFiscalRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Models\Fatura;
+use erpCore\Contracts\Repositories\FaturaRepository;
+use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Models\Fatura;
 
 class FaturaEloquentRepository extends BaseRepository implements FaturaRepository
 {

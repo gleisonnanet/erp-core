@@ -1,9 +1,9 @@
 <?php
 
-namespace erp-core\Contracts\Repositories;
+namespace erpCore\Contracts\Repositories;
 
 use Illuminate\Database\Eloquent\Collection;
-use erp-core\Contracts\RepositoryInterface;
+use erpCore\Contracts\RepositoryInterface;
 
 interface CidadeRepository extends RepositoryInterface
 {

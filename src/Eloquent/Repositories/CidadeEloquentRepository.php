@@ -1,12 +1,12 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
-use erp-core\Contracts\Repositories\CidadeRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Models\Cidade;
+use erpCore\Contracts\Repositories\CidadeRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Models\Cidade;
 
 class CidadeEloquentRepository extends BaseRepository implements CidadeRepository
 {

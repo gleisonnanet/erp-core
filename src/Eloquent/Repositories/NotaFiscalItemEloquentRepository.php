@@ -1,15 +1,15 @@
 <?php
 
-namespace erp-core\Eloquent\Repositories;
+namespace erpCore\Eloquent\Repositories;
 
 
 use Exception;
-use erp-core\Contracts\Repositories\NotaFiscalItemEntity;
-use erp-core\Contracts\Repositories\NotaFiscalItemRepository;
-use erp-core\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use erp-core\Eloquent\BaseRepository;
-use erp-core\Eloquent\Model;
-use erp-core\Eloquent\Models\NotaFiscalItem;
+use erpCore\Contracts\Repositories\NotaFiscalItemEntity;
+use erpCore\Contracts\Repositories\NotaFiscalItemRepository;
+use erpCore\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erpCore\Eloquent\BaseRepository;
+use erpCore\Eloquent\Model;
+use erpCore\Eloquent\Models\NotaFiscalItem;
 
 class NotaFiscalItemEloquentRepository extends BaseRepository implements NotaFiscalItemRepository
 {

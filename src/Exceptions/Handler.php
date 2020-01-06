@@ -1,6 +1,6 @@
 <?php
 
-namespace erp-core\Exceptions;
+namespace erpCore\Exceptions;
 
 use Exception;
 use Symfony\Component\HttpKernel\Exception\HttpException;
