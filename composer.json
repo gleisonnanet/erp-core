@@ -1,5 +1,5 @@
 {
-    "name": "erpCore/core",
+    "name": "gleisonnanet/erpCore",
     "description": "ERP brasileiro de código fonte aberto escrito sob o Laravel Framework",
     "keywords": ["erp", "openerp", "erp php", "laravel"],
     "license": "MIT",
