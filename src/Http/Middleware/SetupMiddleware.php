@@ -1,9 +1,9 @@
 <?php
 
-namespace erpCore\Http\Middleware;
+namespace erpcore\Http\Middleware;
 
 use Closure;
-use erpCore\Contracts\Repositories\EmpresaRepository;
+use erpcore\Contracts\Repositories\EmpresaRepository;
 
 class SetupMiddleware
 {

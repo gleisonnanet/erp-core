@@ -1,13 +1,13 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
 use Illuminate\Http\Request;
-use erpCore\Contracts\Repositories\ContatoRepository;
-use erpCore\Contracts\Repositories\EnderecoRepository;
-use erpCore\Contracts\Repositories\FornecedorRepository;
-use erpCore\Http\Requests\FornecedorSalvarRequest;
-use erpCore\Http\Requests\PessoaSalvarRequest;
+use erpcore\Contracts\Repositories\ContatoRepository;
+use erpcore\Contracts\Repositories\EnderecoRepository;
+use erpcore\Contracts\Repositories\FornecedorRepository;
+use erpcore\Http\Requests\FornecedorSalvarRequest;
+use erpcore\Http\Requests\PessoaSalvarRequest;
 
 class FornecedorController extends Controller
 {

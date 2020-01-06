@@ -1,6 +1,6 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
 
 use Exception;
@@ -10,9 +10,9 @@ use gleisonnanet\CepGratis\CepGratis;
 use gleisonnanet\CnpjGratis\CnpjGratis;
 use gleisonnanet\CpfGratis\CpfGratis;
 use gleisonnanet\Utils\Utils;
-use erpCore\Contracts\Repositories\CidadeRepository;
-use erpCore\Contracts\Repositories\FornecedorRepository;
-use erpCore\Contracts\Repositories\ProdutoRepository;
+use erpcore\Contracts\Repositories\CidadeRepository;
+use erpcore\Contracts\Repositories\FornecedorRepository;
+use erpcore\Contracts\Repositories\ProdutoRepository;
 
 class UtilController extends Controller
 {

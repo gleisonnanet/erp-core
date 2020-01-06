@@ -1,18 +1,18 @@
 <?php
 
-namespace erpCore\Http\Services;
+namespace erpcore\Http\Services;
 
 use Carbon\Carbon;
 use Exception;
 use gleisonnanet\NFePHPSerialize\NFePHPSerialize;
 use gleisonnanet\NFePHPSerialize\NotaFiscal\NfeProc;
-use erpCore\Contracts\Repositories\ClienteRepository;
-use erpCore\Contracts\Repositories\ContatoRepository;
-use erpCore\Contracts\Repositories\EnderecoRepository;
-use erpCore\Contracts\Repositories\FaturaRepository;
-use erpCore\Contracts\Repositories\FornecedorRepository;
-use erpCore\Contracts\Repositories\NotaFiscalItemRepository;
-use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpcore\Contracts\Repositories\ClienteRepository;
+use erpcore\Contracts\Repositories\ContatoRepository;
+use erpcore\Contracts\Repositories\EnderecoRepository;
+use erpcore\Contracts\Repositories\FaturaRepository;
+use erpcore\Contracts\Repositories\FornecedorRepository;
+use erpcore\Contracts\Repositories\NotaFiscalItemRepository;
+use erpcore\Contracts\Repositories\NotaFiscalRepository;
 use Symfony\Component\HttpFoundation\File\UploadedFile;
 
 class ImportarNFeService {

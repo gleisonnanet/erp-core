@@ -1,12 +1,12 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
-use erpCore\Contracts\Repositories\ContatoRepository;
-use erpCore\Contracts\Repositories\EmpresaRepository;
-use erpCore\Contracts\Repositories\EnderecoRepository;
-use erpCore\Http\Requests;
-use erpCore\Http\Requests\SetupSalvarRequest;
+use erpcore\Contracts\Repositories\ContatoRepository;
+use erpcore\Contracts\Repositories\EmpresaRepository;
+use erpcore\Contracts\Repositories\EnderecoRepository;
+use erpcore\Http\Requests;
+use erpcore\Http\Requests\SetupSalvarRequest;
 
 
 class SetupController extends Controller

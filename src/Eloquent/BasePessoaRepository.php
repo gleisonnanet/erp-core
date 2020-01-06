@@ -1,8 +1,8 @@
 <?php
 
-namespace erpCore\Eloquent;
+namespace erpcore\Eloquent;
 
-use erpCore\Contracts\Repositories\PessoaRepository;
+use erpcore\Contracts\Repositories\PessoaRepository;
 
 abstract class BasePessoaRepository extends  BaseRepository
 {

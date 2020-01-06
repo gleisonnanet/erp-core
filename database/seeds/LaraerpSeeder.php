@@ -3,7 +3,7 @@
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Seeder;
 
-class erpCoreSeeder extends Seeder
+class erpcoreSeeder extends Seeder
 {
     /**
      * Run the database seeds.

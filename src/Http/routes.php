@@ -12,7 +12,7 @@ Route::group(['namespace' => '\App\Http\Controllers\Auth'], function() {
 /*
  * Autenticado e não configurado
  */
-Route::group(['middleware' => ['auth'], 'namespace' => '\erpCore\Http\Controllers'], function() {
+Route::group(['middleware' => ['auth'], 'namespace' => '\erpcore\Http\Controllers'], function() {
 
     //Setup
     Route::get('setup', ['as' => 'setup.index', 'uses' => 'SetupController@index']);
@@ -29,7 +29,7 @@ Route::group(['middleware' => ['auth'], 'namespace' => '\erpCore\Http\Controller
 /*
  * Autenticado e configurado
  */
-Route::group(['middleware' => ['auth', 'setup'], 'namespace' => '\erpCore\Http\Controllers'], function() {
+Route::group(['middleware' => ['auth', 'setup'], 'namespace' => '\erpcore\Http\Controllers'], function() {
 
     //Compra
     Route::get('compras', ['as' => 'compras.index', 'uses' => 'CompraController@index']);

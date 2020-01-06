@@ -1,10 +1,10 @@
 <?php
 
-namespace erpCore\Eloquent\Models;
+namespace erpcore\Eloquent\Models;
 
 use Carbon\Carbon;
 use Illuminate\Database\Eloquent\Model;
-use erpCore\Ordination\OrdinationTrait;
+use erpcore\Ordination\OrdinationTrait;
 
 class NotaFiscal extends Model
 {

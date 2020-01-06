@@ -1,10 +1,10 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
 use Illuminate\Http\Request;
-use erpCore\Contracts\Repositories\NotaFiscalItemRepository;
-use erpCore\Contracts\Repositories\NotaFiscalRepository;
+use erpcore\Contracts\Repositories\NotaFiscalItemRepository;
+use erpcore\Contracts\Repositories\NotaFiscalRepository;
 
 class VendaController extends Controller
 {

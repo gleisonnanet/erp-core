@@ -1,12 +1,12 @@
 <?php
 
-namespace erpCore\Eloquent\Repositories;
+namespace erpcore\Eloquent\Repositories;
 
 
-use erpCore\Contracts\Repositories\UnidadeMedidaRepository;
-use erpCore\Eloquent\BaseRepository;
-use erpCore\Eloquent\Model;
-use erpCore\Eloquent\Models\UnidadeMedida;
+use erpcore\Contracts\Repositories\UnidadeMedidaRepository;
+use erpcore\Eloquent\BaseRepository;
+use erpcore\Eloquent\Model;
+use erpcore\Eloquent\Models\UnidadeMedida;
 
 class UnidadeMedidaEloquentRepository extends BaseRepository implements UnidadeMedidaRepository
 {

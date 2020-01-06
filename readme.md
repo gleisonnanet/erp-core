@@ -1,16 +1,16 @@
-# erpCore
+# erpcore
 
-[![Build Status](https://travis-ci.org/erpCore/core.svg?branch=develop)](https://travis-ci.org/erpCore/core)
-[![Latest Stable Version](https://poser.pugx.org/erpCore/core/v/stable)](https://packagist.org/packages/erpCore/core) [![Total Downloads](https://poser.pugx.org/erpCore/core/downloads)](https://packagist.org/packages/erpCore/core) [![Latest Unstable Version](https://poser.pugx.org/erpCore/core/v/unstable)](https://packagist.org/packages/erpCore/core) [![License](https://poser.pugx.org/erpCore/core/license)](https://packagist.org/packages/erpCore/core)
+[![Build Status](https://travis-ci.org/erpcore/core.svg?branch=develop)](https://travis-ci.org/erpcore/core)
+[![Latest Stable Version](https://poser.pugx.org/erpcore/core/v/stable)](https://packagist.org/packages/erpcore/core) [![Total Downloads](https://poser.pugx.org/erpcore/core/downloads)](https://packagist.org/packages/erpcore/core) [![Latest Unstable Version](https://poser.pugx.org/erpcore/core/v/unstable)](https://packagist.org/packages/erpcore/core) [![License](https://poser.pugx.org/erpcore/core/license)](https://packagist.org/packages/erpcore/core)
 
 ERP brasileiro de código fonte aberto escrito sob o Laravel Framework.
 
 # Instalação
 
-Adicione o núcleo do erpCore utilizando o Composer:
+Adicione o núcleo do erpcore utilizando o Composer:
 
 ```shell
-$ composer require erpCore/core
+$ composer require erpcore/core
 ```
 
 Registre o ServiceProvider no arquivo `app/config.php`:
@@ -19,7 +19,7 @@ Registre o ServiceProvider no arquivo `app/config.php`:
 // file START ommited
     'providers' => [
         // other providers ommited
-        \erpCore\Providers\erpCoreServiceProvider::class,
+        \erpcore\Providers\erpcoreServiceProvider::class,
     ],
 // file END ommited
 ```
@@ -35,14 +35,14 @@ Execute os comandos para criar e popular as tabelas:
 
 ```shell
 $ php artisan migrate
-$ php artisan db:seed --class="erpCoreSeeder"
+$ php artisan db:seed --class="erpcoreSeeder"
 ```
 
 # Template
 
-A instalação do core não contempla o template. Você pode utilizar o template default do erpCore:
+A instalação do core não contempla o template. Você pode utilizar o template default do erpcore:
 
-[http://github.com/erpCore/template](http://github.com/erpCore/template)
+[http://github.com/erpcore/template](http://github.com/erpcore/template)
 
 # License
 

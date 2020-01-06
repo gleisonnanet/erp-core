@@ -1,12 +1,12 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
 use Illuminate\Http\Request;
-use erpCore\Contracts\Repositories\ProdutoRepository;
-use erpCore\Contracts\Repositories\UnidadeMedidaFatorRepository;
-use erpCore\Contracts\Repositories\UnidadeMedidaRepository;
-use erpCore\Http\Requests\ProdutoSalvarRequest;
+use erpcore\Contracts\Repositories\ProdutoRepository;
+use erpcore\Contracts\Repositories\UnidadeMedidaFatorRepository;
+use erpcore\Contracts\Repositories\UnidadeMedidaRepository;
+use erpcore\Http\Requests\ProdutoSalvarRequest;
 
 class ProdutoController extends Controller
 {

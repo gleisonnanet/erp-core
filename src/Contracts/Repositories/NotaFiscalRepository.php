@@ -1,9 +1,9 @@
 <?php
 
-namespace erpCore\Contracts\Repositories;
+namespace erpcore\Contracts\Repositories;
 
 use Carbon\Carbon;
-use erpCore\Contracts\RepositoryInterface;
+use erpcore\Contracts\RepositoryInterface;
 
 interface NotaFiscalRepository extends RepositoryInterface
 {

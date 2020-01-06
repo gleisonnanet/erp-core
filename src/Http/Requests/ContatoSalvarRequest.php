@@ -1,6 +1,6 @@
 <?php
 
-namespace erpCore\Http\Requests;
+namespace erpcore\Http\Requests;
 
 class ContatoSalvarRequest extends Request
 {

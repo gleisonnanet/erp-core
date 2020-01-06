@@ -1,9 +1,9 @@
 <?php
 
-namespace erpCore\Eloquent\Models;
+namespace erpcore\Eloquent\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use erpCore\Ordination\OrdinationTrait;
+use erpcore\Ordination\OrdinationTrait;
 
 class Cidade extends Model
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace erpCore\Contracts\Repositories;
+namespace erpcore\Contracts\Repositories;
 
-use erpCore\Contracts\RepositoryInterface;
+use erpcore\Contracts\RepositoryInterface;
 
 interface EnderecoRepository extends RepositoryInterface
 {

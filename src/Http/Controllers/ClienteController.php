@@ -1,12 +1,12 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
 use Illuminate\Http\Request;
-use erpCore\Contracts\Repositories\ClienteRepository;
-use erpCore\Contracts\Repositories\ContatoRepository;
-use erpCore\Contracts\Repositories\EnderecoRepository;
-use erpCore\Http\Requests\PessoaSalvarRequest;
+use erpcore\Contracts\Repositories\ClienteRepository;
+use erpcore\Contracts\Repositories\ContatoRepository;
+use erpcore\Contracts\Repositories\EnderecoRepository;
+use erpcore\Http\Requests\PessoaSalvarRequest;
 
 class ClienteController extends Controller
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace erpCore\Http\Controllers;
+namespace erpcore\Http\Controllers;
 
-use erpCore\Contracts\Repositories\EnderecoRepository;
-use erpCore\Http\Requests\EnderecoSalvarRequest;
+use erpcore\Contracts\Repositories\EnderecoRepository;
+use erpcore\Http\Requests\EnderecoSalvarRequest;
 
 class EnderecoController extends Controller
 {

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * erpCore - Configuração
+ * erpcore - Configuração
  * Author: Jansen Felipe
  */
 
@@ -9,19 +9,19 @@ return [
 
     'repositories' => [
 
-        'CidadeRepository' => \erpCore\Eloquent\Repositories\CidadeEloquentRepository::class,
-        'ClienteRepository' => \erpCore\Eloquent\Repositories\ClienteEloquentRepository::class,
-        'ContatoRepository' => \erpCore\Eloquent\Repositories\ContatoEloquentRepository::class,
-        'EmpresaRepository' => \erpCore\Eloquent\Repositories\EmpresaEloquentRepository::class,
-        'EnderecoRepository' => \erpCore\Eloquent\Repositories\EnderecoEloquentRepository::class,
-        'FornecedorRepository' => \erpCore\Eloquent\Repositories\FornecedorEloquentRepository::class,
-        'PessoaRepository' => \erpCore\Eloquent\Repositories\PessoaEloquentRepository::class,
-        'ProdutoRepository' => \erpCore\Eloquent\Repositories\ProdutoEloquentRepository::class,
-        'UnidadeMedidaRepository' => \erpCore\Eloquent\Repositories\UnidadeMedidaEloquentRepository::class,
-        'UnidadeMedidaFatorRepository' => \erpCore\Eloquent\Repositories\UnidadeMedidaFatorEloquentRepository::class,
-        'UnidadeMedidaFatorSinonimoRepository' => \erpCore\Eloquent\Repositories\UnidadeMedidaFatorSinonimoEloquentRepository::class,
-        'NotaFiscalRepository' => \erpCore\Eloquent\Repositories\NotaFiscalEloquentRepository::class,
-        'NotaFiscalItemRepository' => \erpCore\Eloquent\Repositories\NotaFiscalItemEloquentRepository::class,
-        'FaturaRepository' => \erpCore\Eloquent\Repositories\FaturaEloquentRepository::class,
+        'CidadeRepository' => \erpcore\Eloquent\Repositories\CidadeEloquentRepository::class,
+        'ClienteRepository' => \erpcore\Eloquent\Repositories\ClienteEloquentRepository::class,
+        'ContatoRepository' => \erpcore\Eloquent\Repositories\ContatoEloquentRepository::class,
+        'EmpresaRepository' => \erpcore\Eloquent\Repositories\EmpresaEloquentRepository::class,
+        'EnderecoRepository' => \erpcore\Eloquent\Repositories\EnderecoEloquentRepository::class,
+        'FornecedorRepository' => \erpcore\Eloquent\Repositories\FornecedorEloquentRepository::class,
+        'PessoaRepository' => \erpcore\Eloquent\Repositories\PessoaEloquentRepository::class,
+        'ProdutoRepository' => \erpcore\Eloquent\Repositories\ProdutoEloquentRepository::class,
+        'UnidadeMedidaRepository' => \erpcore\Eloquent\Repositories\UnidadeMedidaEloquentRepository::class,
+        'UnidadeMedidaFatorRepository' => \erpcore\Eloquent\Repositories\UnidadeMedidaFatorEloquentRepository::class,
+        'UnidadeMedidaFatorSinonimoRepository' => \erpcore\Eloquent\Repositories\UnidadeMedidaFatorSinonimoEloquentRepository::class,
+        'NotaFiscalRepository' => \erpcore\Eloquent\Repositories\NotaFiscalEloquentRepository::class,
+        'NotaFiscalItemRepository' => \erpcore\Eloquent\Repositories\NotaFiscalItemEloquentRepository::class,
+        'FaturaRepository' => \erpcore\Eloquent\Repositories\FaturaEloquentRepository::class,
     ]
 ];

@@ -1,11 +1,11 @@
 <?php
 
-namespace erpCore\Eloquent\Repositories;
+namespace erpcore\Eloquent\Repositories;
 
-use erpCore\Contracts\Repositories\ProdutoRepository;
-use erpCore\Eloquent\BaseRepository;
-use erpCore\Eloquent\Model;
-use erpCore\Eloquent\Models\Produto;
+use erpcore\Contracts\Repositories\ProdutoRepository;
+use erpcore\Eloquent\BaseRepository;
+use erpcore\Eloquent\Model;
+use erpcore\Eloquent\Models\Produto;
 
 class ProdutoEloquentRepository extends BaseRepository implements ProdutoRepository
 {
